@@ -6,5 +6,5 @@ const numeriPari = numeriMix.filter((num) => num % 2 === 0)
 let somma = 0
 numeriPari.forEach((numeri) => {
     somma += numeri
-
 })
+console.log(somma)
